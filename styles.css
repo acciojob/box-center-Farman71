@@ -1,16 +1,17 @@
-/*  your css code here. If applicable */
-.container{background-color:lightblue;
-	                    border:2px solid black;
-                        width:200px;
-                        height: 200px;
-                        position:absolute;
-                        top:50%;
-                         left:50%;
-                         margin-top:-100px; /* this is half the height of your div*/  
-                        margin-left:-100px;
-                      }
-            .para{
-	                    position:absolute;
-	                    left:50px;
-	                    top:75px;
-                        }
+.container{
+	background-color:lightblue;
+	border:2px solid black;
+	width:50%;
+	height:50vh;
+	position:relative;
+	top:25vh;
+	left:25%;
+}
+.para{
+	position:absolute;
+	left:90px;
+	top:75px;
+	color: blueviolet;
+	font-weight: bold;
+	font-size:20px;
+}
